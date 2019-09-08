@@ -27,3 +27,7 @@ The [dataset](https://www.kaggle.com/c/spooky-author-identification/data) is pro
     ```
     jupyter notebook
     ```
+6. While running the code, some `nltk` datasets are automatically downloaded. This is a one time download. If the code is still not able to work, please ensure the `nltk` data folder is accessible to nltk. If not, add it using the command:
+	```
+	nltk.data.path.append("your location/directory")
+	```
